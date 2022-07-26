@@ -130,6 +130,36 @@ paths:
             '*/*':
               schema:
                 type: string
+  /hidden:
+    get:
+      operationId: hidden,
+      requestBody:
+        content:
+          '*/*':
+            schema:
+              type: string
+      responses:
+        200:
+          description: default response,
+          content:
+            '*/*':
+              schema:
+                type: string
+  /hidden/BitKeeper:
+    get:
+      operationId: bitkeeper,
+      requestBody:
+        content:
+          '*/*':
+            schema:
+              type: string
+      responses:
+        200:
+          description: default response,
+          content:
+            '*/*':
+              schema:
+                type: string
 components:
   schemas:
     AuthenticationRequest:

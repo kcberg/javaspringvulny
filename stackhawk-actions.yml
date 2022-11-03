@@ -51,7 +51,7 @@ app:
           - "$faker:password"
 hawk:
   spider:
-    maxDurationMinutes: 5
+    maxDurationMinutes: 6
 #  config:
 #    - "scanner.analyser.redirectEqualsNotFound=false"
 #    - "scanner.analyser.followRedirect=true"

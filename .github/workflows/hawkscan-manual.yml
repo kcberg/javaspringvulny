@@ -30,4 +30,3 @@ jobs:
         env:
           APP_ID: ${{ secrets.appId }}
           NO_PROGRESS: true
-          SARIF_ARTIFACT: true

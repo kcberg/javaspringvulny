@@ -18,7 +18,7 @@ jobs:
 #          ./gradlew bootRun &
       - name: Run HawkScan
         id: run-hawkscan
-        uses: stackhawk/hawkscan-action@2.1.3
+        uses: stackhawk/hawkscan-action@v2.1.3
         with:
           apiKey: ${{ secrets.HAWK_API_KEY }}
           sourceURL: https://download.stackhawk.com/dev/hawk/cli

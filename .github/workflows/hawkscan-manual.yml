@@ -26,7 +26,6 @@ jobs:
         with:
           apiKey: ${{ secrets.HAWK_API_KEY }}
           sourceURL: https://download.stackhawk.com/dev/hawk/cli
-          codeScanningAlerts: true
           version: 3.9.12
         env:
           APP_ID: ${{ secrets.appId }}

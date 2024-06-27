@@ -29,4 +29,5 @@ jobs:
           version: 3.9.12
         env:
           APP_ID: ${{ secrets.appId }}
+          NO_PROGRESS: true
           SARIF_ARTIFACT: true

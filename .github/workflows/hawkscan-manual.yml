@@ -1,4 +1,6 @@
-name: HawkScan
+name: HawkScan Example
+on:
+  workflow_dispatch:
 
 jobs:
   hawkscan:
